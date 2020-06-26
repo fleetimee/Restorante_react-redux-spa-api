@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
 import Menu from './MenuComponents';
 import Home from './HomeComponent';
-import DishDetail from './DishdetailComponent';
 import { DISHES } from './dishes';
 import Header from './HeaderComponent';
 import Footer from './FooterComponent';
 import { Switch, Route, Redirect } from 'react-router-dom';
-import { Link } from 'react-router-dom';
+
 class Main extends Component {
 
   constructor(props) {
